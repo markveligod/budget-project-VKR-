@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormStructure</class>
+ <widget class="QWidget" name="FormStructure">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>740</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_10">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>721</width>
+     <height>326</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Ведомственная структура расходов</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="title">
+           <string>Главный распорядитель бюджетный средств</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QComboBox" name="grbs_box">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Федеральное агентство научных организаций</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Министерство промышленности и торговли Российской Федерации</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="title">
+           <string>Раздел</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QComboBox" name="section_box">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Общегосударственные вопросы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Национальная экономика</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Подраздел</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QComboBox" name="sub_box_1">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Функционирование Президента Российской Федерации</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Функционирование высшего должностного лица субъекта Российской Федерации и муниципального образования</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Функционирование законодательных (представительных) органов государственной власти и представительных органов муниципальных образований</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Функционирование Правительства Российской Федерации, высших исполнительных органов государственной власти субъектов Российской Федерации, местных администраций</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Судебная система</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Обеспечение деятельности финансовых, налоговых и таможенных органов и органов финансового (финансово-бюджетного) надзора</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Обеспечение проведения выборов и референдумов</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Международные отношения и международное сотрудничество</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственный материальный резерв</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Фундаментальные исследования</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Резервные фонды</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Прикладные научные исследования в области общегосударственных вопросов</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Другие общегосударственные вопросы</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>Подраздел</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QComboBox" name="sub_box_4">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Общеэкономические вопросы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Топливно-энергетический комплекс</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Исследование и использование космического пространства</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Воспроизводство минерально-сырьевой базы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Сельское хозяйство и рыболовство</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Водное хозяйство</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Лесное хозяйство</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Транспорт</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Дорожное хозяйство (дорожные фонды)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Связь и информатика</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Прикладные научные исследования в области национальной экономики</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Другие вопросы в области национальной экономики</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>Программа</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QComboBox" name="prog_box">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие здравоохранения&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие культуры и туризма&quot; на 2013 - 2020 годы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие науки и технологий&quot; на 2013 - 2020 годы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Реализация функций иных федеральных органов государственной власти</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа развития сельского хозяйства и регулирования рынков сельскохозяйственной продукции, сырья и продовольствия на 2013 - 2020 годы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Охрана окружающей среды&quot; на 2012 - 2020 годы</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие авиационной промышленности на 2013 - 2025 годы&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие внешнеэкономической деятельности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие промышленности и повышение ее конкурентоспособности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Обеспечение общественного порядка и противодействие преступности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие судостроения и техники для освоения шельфовых месторождений на 2013 - 2030 годы&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие электронной и радиоэлектронной промышленности на 2013 - 2025 годы&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Государственная программа Российской Федерации &quot;Развитие фармацевтической и медицинской промышленности&quot; на 2013 - 2020 годы</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="title">
+           <string>Подпрограмма</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QComboBox" name="pod_box">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Авиационная наука и технологии&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Создание национальной системы поддержки развития внешнеэкономической деятельности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Развитие и внедрение инновационных методов диагностики, профилактики и лечения, а также основ персонализированной медицины&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Наследие&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Фундаментальные научные исследования&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Научно-техническое обеспечение развития отраслей агропромышленного комплекса&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Развитие системы технического регулирования, стандартизации и обеспечение единства измерений&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Содействие проведению научных исследований и опытных разработок в гражданских отраслях промышленности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Подпрограмма &quot;Самолетостроение&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Иные непрограммные мероприятия</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="title">
+           <string>Мероприятие</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QComboBox" name="event_box">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Развитие фундаментальной, трансляционной и персонализированной медицины&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Развитие музейного дела&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Выполнение фундаментальных научных исследований учреждениями государственных академий наук, финансовое обеспечение государственных академий наук&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Выполнение фундаментальных научных исследований по приоритетным направлениям, определяемым Российской академией наук&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Обеспечение сохранения коллекции генетических ресурсов растений&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Реализация Федеральной научно-технической программы развития сельского хозяйства&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Выполнение научно-исследовательских работ в целях развития науки и технологий в авиастроении и технологической и инженерной инфраструктуры, в том числе на базе инновационных территориальных кластеров&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Промоутерская поддержка экспорта и инвестиционного сотрудничества&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Развитие системы технического регулирования и стандартизации&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Научные исследования и сопровождение приоритетных и инновационных проектов&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Государственная поддержка российских организаций самолетостроения&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Выполнение научно-исследовательских и опытно-конструкторских работ в области самолетостроения&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Выполнение научно-исследовательских и опытно-конструкторских работ в области вертолетостроения&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Выполнение научно-исследовательских и опытно-конструкторских работ в области авиационного двигателестроения&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Государственная поддержка российских научных организаций, осуществляющих исследования в области развития авиации и авиационной деятельности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Научно-аналитическое обеспечение реализации государственной программы&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Создание научно-технического задела для развития морской и речной техники гражданского назначения&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Разработка новых технологий и создание инновационных проектов для производства гражданской морской и речной техники&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Государственная поддержка создания научно-технического задела&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Реализация иных проектов в области фармацевтической промышленности&quot;</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Основное мероприятие &quot;Реализация иных проектов в области медицинской промышленности&quot;</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="title">
+           <string>Вид расходов</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QComboBox" name="view_box">
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Субсидии российским организациям на компенсацию части затрат на реализацию проектов по организации и проведению клинических испытаний имплантируемых медицинских изделий (Иные бюджетные ассигнования)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Финансовое обеспечение выполнения функций федеральных государственных органов, оказания услуг и выполнения работ (Предоставление субсидий бюджетным, автономным учреждениям и иным некоммерческим организациям)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Субсидии российским организациям на возмещение части затрат на реализацию проектов по организации и проведению клинических исследований лекарственных препаратов (Иные бюджетные ассигнования)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Субсидии российским организациям на возмещение части затрат на реализацию проектов по разработке схожих по фармакотерапевтическому действию и улучшенных аналогов инновационных лекарственных препаратов (Иные бюджетные ассигнования)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Субсидии российским организациям на финансовое обеспечение части затрат на создание научно-технического задела по разработке базовых технологий производства приоритетных электронных компонентов и радиоэлектронной аппаратуры (Иные бюджетные ассигнования)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Финансовое обеспечение выполнения функций федеральных государственных органов, оказания услуг и выполнения работ (Закупка товаров, работ и услуг для обеспечения государственных (муниципальных) нужд)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Взнос в уставный капитал публичного акционерного общества &quot;Объединенная авиастроительная корпорация&quot;, г. Москва, в том числе для осуществления последующих взносов в уставные капиталы дочерних обществ, на финансовое обеспечение затрат в рамках реализации проекта по созданию широкофюзеляжного дальнемагистрального самолета (Капитальные вложения в объекты государственной (муниципальной) собственности)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Финансовое обеспечение выполнения функций федеральных государственных органов, оказания услуг и выполнения работ (Иные бюджетные ассигнования)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Финансовое обеспечение выполнения функций федеральных государственных органов, оказания услуг и выполнения работ (Расходы на выплаты персоналу в целях обеспечения выполнения функций государственными (муниципальными) органами, казенными учреждениями, органами управления государственными внебюджетными фондами)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Финансовое обеспечение выполнения функций федеральных государственных органов, оказания услуг и выполнения работ (Капитальные вложения в объекты государственной (муниципальной) собственности)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Финансовое обеспечение выполнения функций федеральных государственных органов, оказания услуг и выполнения работ (Социальное обеспечение и иные выплаты населению)</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="title">
+           <string>Сумма бюджетных средств</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QLineEdit" name="line_sum"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QPushButton" name="send_btn">
+            <property name="text">
+             <string>Отправить</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="close_btn">
+            <property name="text">
+             <string>Закрыть</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>grbs_box</tabstop>
+  <tabstop>section_box</tabstop>
+  <tabstop>sub_box_1</tabstop>
+  <tabstop>sub_box_4</tabstop>
+  <tabstop>prog_box</tabstop>
+  <tabstop>pod_box</tabstop>
+  <tabstop>event_box</tabstop>
+  <tabstop>view_box</tabstop>
+  <tabstop>line_sum</tabstop>
+  <tabstop>send_btn</tabstop>
+  <tabstop>close_btn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
