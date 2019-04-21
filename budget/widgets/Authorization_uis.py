@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'C:\Users\markveligod\Desktop\budget\widgets\Authorization.ui',
 # licensing of 'C:\Users\markveligod\Desktop\budget\widgets\Authorization.ui' applies.
 #
-# Created: Sat Apr 20 17:41:52 2019
+# Created: Sun Apr 21 20:47:19 2019
 #      by: pyside2-uic  running on PySide2 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -13,13 +13,20 @@ from PySide2 import QtCore, QtGui, QtWidgets
 class Ui_AuthorizationDialog(object):
     def setupUi(self, AuthorizationDialog):
         AuthorizationDialog.setObjectName("AuthorizationDialog")
-        AuthorizationDialog.resize(242, 134)
+        AuthorizationDialog.resize(234, 164)
         self.verticalLayout_3 = QtWidgets.QVBoxLayout(AuthorizationDialog)
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.groupBox = QtWidgets.QGroupBox(AuthorizationDialog)
         self.groupBox.setObjectName("groupBox")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.groupBox)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.image = QtWidgets.QLabel(self.groupBox)
+        self.image.setAlignment(QtCore.Qt.AlignCenter)
+        self.image.setObjectName("image")
+        self.verticalLayout_4.addWidget(self.image)
+        self.verticalLayout_2.addLayout(self.verticalLayout_4)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
         self.horizontalLayout = QtWidgets.QHBoxLayout()
@@ -51,6 +58,9 @@ class Ui_AuthorizationDialog(object):
         self.ok_btn = QtWidgets.QPushButton(self.groupBox)
         self.ok_btn.setObjectName("ok_btn")
         self.horizontalLayout_3.addWidget(self.ok_btn)
+        self.reg_btn = QtWidgets.QPushButton(self.groupBox)
+        self.reg_btn.setObjectName("reg_btn")
+        self.horizontalLayout_3.addWidget(self.reg_btn)
         self.verticalLayout_2.addLayout(self.horizontalLayout_3)
         self.verticalLayout_3.addWidget(self.groupBox)
 
@@ -58,9 +68,11 @@ class Ui_AuthorizationDialog(object):
         QtCore.QMetaObject.connectSlotsByName(AuthorizationDialog)
 
     def retranslateUi(self, AuthorizationDialog):
-        AuthorizationDialog.setWindowTitle(QtWidgets.QApplication.translate("AuthorizationDialog", "Dialog", None, -1))
-        self.groupBox.setTitle(QtWidgets.QApplication.translate("AuthorizationDialog", "authorization", None, -1))
-        self.name_laybol.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "name", None, -1))
-        self.password_laybol.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "password", None, -1))
-        self.ok_btn.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "ОК", None, -1))
+        AuthorizationDialog.setWindowTitle(QtWidgets.QApplication.translate("AuthorizationDialog", "Blockchain Федерального бюджета", None, -1))
+        self.groupBox.setTitle(QtWidgets.QApplication.translate("AuthorizationDialog", "Авторизация", None, -1))
+        self.image.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "TextLabel", None, -1))
+        self.name_laybol.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "Имя:", None, -1))
+        self.password_laybol.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "Пароль:", None, -1))
+        self.ok_btn.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "Войти", None, -1))
+        self.reg_btn.setText(QtWidgets.QApplication.translate("AuthorizationDialog", "Зарегистрироваться", None, -1))
 

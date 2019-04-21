@@ -1,5 +1,7 @@
 <RCC>
 	<qresource>
+		<file>ava.png</file>
+		<file>login.png</file>
 		<file>monitor.png</file>
 	</qresource>
 </RCC>

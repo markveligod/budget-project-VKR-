@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'C:\Users\markveligod\Desktop\budget\widgets\Structure.ui',
 # licensing of 'C:\Users\markveligod\Desktop\budget\widgets\Structure.ui' applies.
 #
-# Created: Sat Apr 20 07:21:37 2019
+# Created: Sun Apr 21 20:47:26 2019
 #      by: pyside2-uic  running on PySide2 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -228,7 +228,7 @@ class Ui_FormStructure(object):
         FormStructure.setTabOrder(self.send_btn, self.close_btn)
 
     def retranslateUi(self, FormStructure):
-        FormStructure.setWindowTitle(QtWidgets.QApplication.translate("FormStructure", "Form", None, -1))
+        FormStructure.setWindowTitle(QtWidgets.QApplication.translate("FormStructure", "Blockchain Федерального бюджета", None, -1))
         self.groupBox_10.setTitle(QtWidgets.QApplication.translate("FormStructure", "Ведомственная структура расходов", None, -1))
         self.groupBox_5.setTitle(QtWidgets.QApplication.translate("FormStructure", "Главный распорядитель бюджетный средств", None, -1))
         self.grbs_box.setItemText(1, QtWidgets.QApplication.translate("FormStructure", "Федеральное агентство научных организаций", None, -1))

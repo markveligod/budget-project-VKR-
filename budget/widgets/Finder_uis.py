@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'C:\Users\markveligod\Desktop\budget\widgets\Finder.ui',
 # licensing of 'C:\Users\markveligod\Desktop\budget\widgets\Finder.ui' applies.
 #
-# Created: Fri Apr 19 20:36:35 2019
+# Created: Sun Apr 21 20:47:21 2019
 #      by: pyside2-uic  running on PySide2 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -102,7 +102,7 @@ class Ui_FormFinder(object):
         QtCore.QMetaObject.connectSlotsByName(FormFinder)
 
     def retranslateUi(self, FormFinder):
-        FormFinder.setWindowTitle(QtWidgets.QApplication.translate("FormFinder", "Form", None, -1))
+        FormFinder.setWindowTitle(QtWidgets.QApplication.translate("FormFinder", "Blockchain Федерального бюджета", None, -1))
         self.groupBox.setTitle(QtWidgets.QApplication.translate("FormFinder", "поиск данных", None, -1))
         self.label_3.setText(QtWidgets.QApplication.translate("FormFinder", "категория поиска", None, -1))
         self.grb_box.setItemText(1, QtWidgets.QApplication.translate("FormFinder", "Главный распорядитель бюджета", None, -1))

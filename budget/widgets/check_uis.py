@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'C:\Users\markveligod\Desktop\budget\widgets\check.ui',
 # licensing of 'C:\Users\markveligod\Desktop\budget\widgets\check.ui' applies.
 #
-# Created: Fri Apr 19 18:32:15 2019
+# Created: Sun Apr 21 20:47:17 2019
 #      by: pyside2-uic  running on PySide2 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -41,8 +41,8 @@ class Ui_Form_check(object):
         QtCore.QMetaObject.connectSlotsByName(Form_check)
 
     def retranslateUi(self, Form_check):
-        Form_check.setWindowTitle(QtWidgets.QApplication.translate("Form_check", "Form", None, -1))
+        Form_check.setWindowTitle(QtWidgets.QApplication.translate("Form_check", "Blockchain Федерального бюджета", None, -1))
         self.groupBox.setTitle(QtWidgets.QApplication.translate("Form_check", "состояние блоков", None, -1))
         self.check_block_btn.setText(QtWidgets.QApplication.translate("Form_check", "проверить", None, -1))
         self.close_btn.setText(QtWidgets.QApplication.translate("Form_check", "закрыть", None, -1))
-       
+

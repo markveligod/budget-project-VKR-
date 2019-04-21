@@ -4,7 +4,7 @@ import json
 import hashlib
 import datetime
 from kbk_basa import data_kbk
-section_directory=os.curdir+'/block_section/'
+people_directory=os.curdir+'/block_people/'
 statement_directory=os.curdir+'/block_statement/'
 
 
@@ -117,6 +117,21 @@ def assembly(name_main, name_section, name_subsection, name_pr, name_pod, name_e
 	print(result)
 	return result
 
+
+def reg_user(name, password, directory):
+	files=sorting_file(directory)
+	prev_file=files[-1]
+	filename=str(prev_file+1)
+	hashing=get_hashing(directory, str(prev_file))
+	data_time=str(timer())
+	data={
+	"name": name,
+	"password": password,
+	"data_time": data_time,
+	"hashing": hashing,
+	}
+	with open(directory + filename, 'w', encoding='utf-8') as file:
+		json.dump(data, file, indent=4, ensure_ascii=False)
 
 
 # def main():

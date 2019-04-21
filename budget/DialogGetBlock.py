@@ -33,6 +33,7 @@ class GetBlockClass(QDialog, ui.Ui_FormStructure):
 				msgBox=QMessageBox()
 				msgBox.setText('Данные внесены в новый блок.')
 				ret=msgBox.exec_()
+				self.close()
 			else:
 				msgBox=QMessageBox()
 				msgBox.setText('Некорректно введены данные. Попробуйте ещё раз.')

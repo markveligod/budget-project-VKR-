@@ -6,20 +6,34 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>242</width>
-    <height>134</height>
+    <width>234</width>
+    <height>164</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Blockchain Федерального бюджета</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
-      <string>authorization</string>
+      <string>Авторизация</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="image">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
@@ -27,7 +41,7 @@
           <item>
            <widget class="QLabel" name="name_laybol">
             <property name="text">
-             <string>name</string>
+             <string>Имя:</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -48,7 +62,7 @@
           <item>
            <widget class="QLabel" name="password_laybol">
             <property name="text">
-             <string>password</string>
+             <string>Пароль:</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -67,7 +81,14 @@
         <item>
          <widget class="QPushButton" name="ok_btn">
           <property name="text">
-           <string>ОК</string>
+           <string>Войти</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="reg_btn">
+          <property name="text">
+           <string>Зарегистрироваться</string>
           </property>
          </widget>
         </item>
