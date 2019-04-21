@@ -5,11 +5,14 @@ from widgets import MainMenu_uis as ui
 import os
 import json
 import DialogGetBlock, DialogCheckBlock, Auto, DialogFindBlock
+from icons import icons_rcs
 
 class projectClass(QMainWindow, ui.Ui_MainWindow):
 	def __init__(self):
 		super(projectClass, self).__init__()
 		self.setupUi(self)
+		#ui
+		self.setWindowIcon(QIcon(':/monitor.png'))
 		#connect's
 		self.createblock_btn.clicked.connect(self.openDialogGetBlock)
 		self.check_btn.clicked.connect(self.openDialogCheckBlock)

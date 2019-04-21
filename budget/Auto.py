@@ -4,11 +4,15 @@ from PySide2.QtGui import *
 from widgets import Authorization_uis as ui
 import os, json
 import basa_password
+from icons import icons_rcs
 
 class authorizationClass(QDialog, ui.Ui_AuthorizationDialog):
 	def __init__(self, parent):
 		super(authorizationClass, self).__init__(parent)
 		self.setupUi(self)
+		#ui
+		self.setWindowIcon(QIcon(':/monitor.png'))
+		# self.setWindowFlags(Qt.WindowStaysOnTopHint)
 		#connect's
 		self.ok_btn.clicked.connect(self.ok)
 
